@@ -35,13 +35,13 @@ This folder contains my solution for the programming test:
 - `explanation.md` → Logical explanation for SQL query improvements.
 - `docker/` → Optional Docker environment to run MySQL.
 
- **Issue**: The original query was slow (~8 seconds) due to:
+### **Issue**: The original query was slow (~8 seconds) due to:
   - **Full Table Scan** caused by `LIKE '%xxx%'` searches.
   - **Too many `LEFT JOIN`** queries increasing processing time.
   - **Unnecessary `GROUP BY`** operations affecting performance.
   - **Inefficient pagination** using `LIMIT OFFSET`.
 
-**Optimizations Applied**:
+### **Optimizations Applied**:
   - Used **FULLTEXT INDEX** instead of `LIKE '%xxx%'` to speed up text searches.
   - Reduced **`LEFT JOIN` usage** and replaced with `EXISTS` where possible.
   - Reorganized the query to **remove unnecessary `GROUP BY` operations**.
