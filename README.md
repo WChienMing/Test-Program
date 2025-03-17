@@ -23,8 +23,8 @@ This folder contains my solution for the programming test:
 #### **Method 2: Run in Docker**
 1. Navigate to the `A_Programming_Test/docker` folder.
 2. Run the following command to start the container:
-   - docker-compose build
-   - docker-compose up -d
+  - docker-compose build
+  - docker-compose up -d
 3. Open http://localhost:8080 in your browser.
 
 
