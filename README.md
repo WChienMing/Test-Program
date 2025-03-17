@@ -1,11 +1,9 @@
 # Test-Program
 
 ## Introduction
-This repository contains my submission for:
-- **A) Programming Test** (Web development using PHP & jQuery)
-- **B) SQL Improvement Logic Test** (Optimizing a slow SQL query)
-
-The following files and directories contain my solutions.
+### This repository contains my submission for:
+- A) Programming Test** (Web development using PHP & jQuery)
+- B) SQL Improvement Logic Test** (Optimizing a slow SQL query)
 
 ## **A) Programming Test**
 ### 📌 What is inside `A_Programming_Test/`?
