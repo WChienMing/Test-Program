@@ -16,16 +16,16 @@ This folder contains my solution for the programming test:
 
 ### How to Run?
 #### **Method 1: Run Locally**
-1. Install **WAMP** or any local PHP server.
-2. Place the `A_Programming_Test/` folder inside your server's web directory.
-3. Open `http://localhost/A_Programming_Test/index.html` in your browser.
+- Install **WAMP** or any local PHP server.
+- Place the `A_Programming_Test/` folder inside your server's web directory.
+- Open `http://localhost/A_Programming_Test/index.html` in your browser.
 
 #### **Method 2: Run in Docker**
-1. Navigate to the `A_Programming_Test/docker` folder.
-2. Run the following command to start the container:
+- Navigate to the `A_Programming_Test/docker` folder.
+- Run the following command to start the container:
     - docker-compose build
     - docker-compose up -d
-3. Open http://localhost:8080 in your browser.
+- Open http://localhost:8080 in your browser.
 
 
 ## **B) SQL Improvement Logic Test**
