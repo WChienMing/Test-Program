@@ -6,9 +6,7 @@ This repository contains my submission for:
 
 - **A) Programming Test** (Web development using PHP & jQuery)
 - **B) SQL Improvement Logic Test** (Optimizing a slow SQL query)
-
 ---
-
 ## 🚩 A) Programming Test
 ### 📌 What is inside `A_Programming_Test/`?
 
@@ -19,30 +17,28 @@ This repository contains my submission for:
 ### 🚀 How to Run?
 
 #### 🔧 Method 1: Run Locally
-- Install **WAMP** or any local PHP server.
-- Place the `A_Programming_Test` folder into your server's web directory.
-- Open your browser at:  
+  - Install **WAMP** or any local PHP server.
+  - Place the `A_Programming_Test` folder into your server's web directory.
+  - Open your browser at:  
 
   ```
   http://localhost/A_Programming_Test/index.html
   ```
 
 #### 🔧 Method 2: Run with Docker
-
-- Navigate to the `A_Programming_Test/` folder in terminal.
-- Execute:
+  - Navigate to the `A_Programming_Test/` folder in terminal.
+  - Execute:
   
   ```bash
   docker-compose build
   docker-compose up -d
   ```
-- Visit:
+  - Visit:
   
   ```
   http://localhost:8080
   ```
 ---
-
 ## 🚩 B) SQL Improvement Logic Test
 
 ### 📌 What is inside `B_SQL_Improvement/`?
@@ -66,9 +62,7 @@ This repository contains my submission for:
 - Reduced complexity by minimizing unnecessary `LEFT JOIN`s, replacing them with `EXISTS` statements.
 - Removed redundant `GROUP BY` operations for efficiency.
 - Implemented **Keyset Pagination** to replace inefficient `LIMIT OFFSET`.
-
 ---
-
 ## Total Time Spent
 - A) Programming Test: 3 hours  
 - B) SQL Improvement Logic Test: 2 day
