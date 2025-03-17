@@ -1,55 +1,50 @@
 # Test-Program
 
-## 📌 Introduction
+## Introduction
+### This repository contains my submission for:
+- A) Programming Test** (Web development using PHP & jQuery)
+- B) SQL Improvement Logic Test** (Optimizing a slow SQL query)
 
-This repository contains my submission for:
+## **A) Programming Test**
+### 📌 What is inside `A_Programming_Test/`?
+This folder contains my solution for the programming test:
+- `index.html` → The frontend interface using jQuery.
+- `poker.php` → The backend logic for distributing playing cards.
+- `docker/` → Optional Docker environment to run program (if needed).
 
-- **A) Programming Test** (Web development using PHP & jQuery)
-- **B) SQL Improvement Logic Test** (Optimizing a slow SQL query)
-
----
-
-## 🗂️ **A) Programming Test**
-
-### 📌 What's included in `A_Programming_Test/`:
-- `index.html` → Frontend interface using jQuery.
-- `poker.php` → Backend logic for distributing playing cards.
-- `docker/` → Optional Docker environment to run the program.
-
-### 🚀 **How to Run?**
-
+### How to Run?
 #### **Method 1: Run Locally**
 - Install **WAMP** or any local PHP server.
-- Copy `A_Programming_Test/` folder into your server's web directory.
-- Open your browser and visit:  
-  `http://localhost/A_Programming_Test/index.html`
+- Place the `A_Programming_Test/` folder inside your server's web directory.
+- Open `http://localhost/A_Programming_Test/index.html` in your browser.
 
-#### **Method 2: Run using Docker**
-- Navigate to the `A_Programming_Test/` directory and run:
-  ```bash
-  docker-compose build
-  docker-compose up -d
+#### **Method 2: Run in Docker**
+- Navigate to the `A_Programming_Test/docker` folder.
+- Run the following command to start the container:
+    - docker-compose build
+    - docker-compose up -d
+- Open http://localhost:8080 in your browser.
 
-```md
-## 📌 B) SQL Improvement Logic Test
 
-📂 **What's included in `B_SQL_Improvement/`?**
-- before.sql → Original slow query provided.
-- database_setup.sql → Provided for reference/testing purposes only (Docker setup not fully completed).
-- explanation.md → Written logical explanation of query improvements.
-- docker/ → Optional Docker environment files to run MySQL (attempted setup, for reference only).
+## **B) SQL Improvement Logic Test**
+### 📌 What is inside `B_SQL_Improvement/`?
+- `before.sql` → Original slow query.
+- `database_setup.sql` → This file is created for testing purposes only.
+- `explanation.md` → Logical explanation for SQL query improvements.
+- `docker/` → Optional Docker environment to run MySQL.
 
-⚡ Issue Identified:
-- Slow query (~8 seconds) caused by:
-  - Full Table Scan (`LIKE '%xxx%'` usage).
-  - Excessive LEFT JOIN clauses causing complexity.
-  - Unnecessary GROUP BY clauses.
-  - Inefficient pagination (`LIMIT OFFSET`).
+### **Issue**: The original query was slow (~8 seconds) due to:
+  - **Full Table Scan** caused by `LIKE '%xxx%'` searches.
+  - **Too many `LEFT JOIN`** queries increasing processing time.
+  - **Unnecessary `GROUP BY`** operations affecting performance.
+  - **Inefficient pagination** using `LIMIT OFFSET`.
 
-🔧 Optimizations Applied:
-- Implemented FULLTEXT INDEX to replace slow `LIKE '%xxx%'`.
-- Reduced excessive LEFT JOIN statements, adopted EXISTS conditions.
-- Removed unnecessary GROUP BY clauses.
-- Switched to efficient Keyset Pagination instead of `LIMIT OFFSET`.
-```
+### **Optimizations Applied**:
+  - Used **FULLTEXT INDEX** instead of `LIKE '%xxx%'` to speed up text searches.
+  - Reduced **`LEFT JOIN` usage** and replaced with `EXISTS` where possible.
+  - Reorganized the query to **remove unnecessary `GROUP BY` operations**.
+  - Applied **Keyset Pagination** instead of `LIMIT OFFSET` for faster pagination.
 
+## Total Time Spent
+- A) Programming Test: 3 hours  
+- B) SQL Improvement Logic Test: 2 day
