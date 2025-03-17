@@ -14,7 +14,7 @@ This folder contains my solution for the programming test:
 - `poker.php` → The backend logic for distributing playing cards.
 - `docker/` → Optional Docker environment to run program (if needed).
 
-## How to Run?
+### How to Run?
 #### **Method 1: Run Locally**
 1. Install **WAMP** or any local PHP server.
 2. Place the `A_Programming_Test/` folder inside your server's web directory.
