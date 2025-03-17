@@ -10,7 +10,6 @@ This repository contains my submission for:
 ---
 
 ## 🚩 A) Programming Test
-
 ### 📌 What is inside `A_Programming_Test/`?
 
 - `index.html` → Frontend interface built using jQuery.
@@ -46,7 +45,6 @@ This repository contains my submission for:
 ---
 
 ## 🚩 B) SQL Improvement Logic Test
-
 ### 📌 What is inside `B_SQL_Improvement/`?
 
 - `before.sql` → Original slow SQL query provided for reference.
