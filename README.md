@@ -23,9 +23,7 @@ This repository contains my submission for:
 - Install **WAMP** or any local PHP server.
 - Place the `A_Programming_Test` folder into your server's web directory.
 - Open your browser at:  
-  ```
   http://localhost/A_Programming_Test/index.html
-  ```
 
 #### 🔧 Method 2: Run with Docker
 
