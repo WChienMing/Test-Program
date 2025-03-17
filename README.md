@@ -7,8 +7,9 @@ This repository contains my submission for:
 - **A) Programming Test** (Web development using PHP & jQuery)
 - **B) SQL Improvement Logic Test** (Optimizing a slow SQL query)
 
-## 🚩 A) Programming Test
+---
 
+## 🚩 A) Programming Test
 ### 📌 What is inside `A_Programming_Test/`?
 
 - `index.html` → Frontend interface built using jQuery.
@@ -40,6 +41,7 @@ This repository contains my submission for:
   ```
   http://localhost:8080
   ```
+---
 
 ## 🚩 B) SQL Improvement Logic Test
 
@@ -64,6 +66,8 @@ This repository contains my submission for:
 - Reduced complexity by minimizing unnecessary `LEFT JOIN`s, replacing them with `EXISTS` statements.
 - Removed redundant `GROUP BY` operations for efficiency.
 - Implemented **Keyset Pagination** to replace inefficient `LIMIT OFFSET`.
+
+---
 
 ## Total Time Spent
 - A) Programming Test: 3 hours  
