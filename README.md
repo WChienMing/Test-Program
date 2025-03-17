@@ -23,7 +23,9 @@ This repository contains my submission for:
 - Install **WAMP** or any local PHP server.
 - Place the `A_Programming_Test` folder into your server's web directory.
 - Open your browser at:  
+  ```
   http://localhost/A_Programming_Test/index.html
+  ```
 
 #### 🔧 Method 2: Run with Docker
 
@@ -45,7 +47,7 @@ This repository contains my submission for:
 ### 📌 What is inside `B_SQL_Improvement/`?
 
 - `before.sql` → Original slow SQL query provided for reference.
-- `database_setup.sql` → Created for testing purposes (reference only).
+- `database_setup.sql` → This file is created for testing purposes only.
 - `explanation.md` → Logical explanation of SQL query improvements.
 - `docker/` → Optional Docker environment for MySQL testing.
 
