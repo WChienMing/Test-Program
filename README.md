@@ -49,4 +49,4 @@ This folder contains my solution for the programming test:
 
 ## Total Time Spent
 - A) Programming Test: 3 hours  
-- B) SQL Improvement Logic Test:
+- B) SQL Improvement Logic Test: 2 day
