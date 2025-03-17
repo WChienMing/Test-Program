@@ -41,7 +41,7 @@ This folder contains my solution for the programming test:
   - **Unnecessary `GROUP BY`** operations affecting performance.
   - **Inefficient pagination** using `LIMIT OFFSET`.
 
-- **Optimizations Applied**:
+**Optimizations Applied**:
   - Used **FULLTEXT INDEX** instead of `LIKE '%xxx%'` to speed up text searches.
   - Reduced **`LEFT JOIN` usage** and replaced with `EXISTS` where possible.
   - Reorganized the query to **remove unnecessary `GROUP BY` operations**.
