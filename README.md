@@ -26,7 +26,7 @@ This repository contains my submission for:
   ```
 
 #### 🔧 Method 2: Run with Docker
-  - Navigate to the `A_Programming_Test/` folder in terminal.
+  - Navigate to the `A_Programming_Test/docker` folder in terminal.
   - Execute:
   
   ```bash
