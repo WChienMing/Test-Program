@@ -32,11 +32,13 @@ This repository contains my submission for:
 
 - Navigate to the `A_Programming_Test/` folder in terminal.
 - Execute:
+  
   ```bash
   docker-compose build
   docker-compose up -d
   ```
 - Visit:
+  
   ```
   http://localhost:8080
   ```
